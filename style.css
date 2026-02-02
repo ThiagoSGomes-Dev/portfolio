@@ -278,6 +278,8 @@ section {
 }
 
 #card-wrapper {
+  padding-left: var(--space-4);
+  padding-right: var(--space-4);
 }
 
 .card {
@@ -300,6 +302,13 @@ section {
 section h3 {
   margin-top: 0;
   color: var(--color-primary-400);
+}
+
+section a {
+  all: unset;
+  display: inline-flex;
+  width: fit-content;
+  height: fit-content;
 }
 
 section p {
