@@ -18,8 +18,8 @@
   --chakra-colors-whiteAlpha-500: rgba(255, 255, 255, 0.36);
 
   --font-heading: "M PLUS Rounded 1c", system-ui, sans-serif;
-  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
-    sans-serif;
+  --font-body:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 
   --font-size-xs: 0.75rem;
   --font-size-sm: 0.875rem;
@@ -154,39 +154,39 @@ nav li a {
   padding: var(--space-14) var(--space-4);
 }
 
-.hero.reverse {
+.hero.hero--reverse {
   flex-direction: row-reverse;
 }
 
-.hero .hero-text {
+.hero .hero__content {
   align-items: center;
   flex-direction: column;
   display: flex;
   height: 100%;
 }
 
-.hero-profile {
+.hero__profile {
   display: flex;
   flex-direction: row-reverse;
   gap: var(--space-6);
 }
 
-.subhero-profile {
+.subhero__profile {
   display: flex;
   flex-direction: column;
 }
 
-.hero .hero-text p {
+.hero .hero__content p {
   font-size: var(--font-size-xs);
   margin-bottom: var(--space-2);
 }
 
-.css-g5b6ha {
+.hero__intro {
   flex: 1;
   width: 100%;
   height: 100%;
 
-  border-radius: var(--radii-lg);
+  border-radius: var(--radius-md);
   margin-bottom: var(--space-6);
   padding: var(--space-3);
   text-align: center;
@@ -195,13 +195,13 @@ nav li a {
 }
 
 @media screen and (min-width: 48em) {
-  .css-1dklj6k {
+  .hero__name {
     font-size: var(--font-size-2xl);
     line-height: 1.2;
   }
 }
 
-.hero .hero-text h2 {
+.hero .hero__content h2 {
   margin: var(--space-1) 0 var(--space-4);
   font-size: var(--font-size-sm);
   color: var(--color-primary-400);
@@ -309,6 +309,7 @@ section a {
   display: inline-flex;
   width: fit-content;
   height: fit-content;
+  cursor: pointer;
 }
 
 section p {
