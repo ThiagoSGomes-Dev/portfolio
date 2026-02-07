@@ -140,7 +140,7 @@ nav li a {
 }
 
 @media screen and (min-width: 48em) {
-  .css-4r1ia7 {
+  .nav__bar__menu {
     display: flex;
     width: auto;
     margin-top: 0;
