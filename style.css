@@ -110,7 +110,7 @@ nav li a {
   text-decoration: none;
 }
 
-.css-1wkbond {
+.nav__bar {
   width: 100%;
   margin-inline: auto;
   padding-inline: var(--space-4);
@@ -119,7 +119,7 @@ nav li a {
   max-width: var(--sizes-container-md);
 }
 
-.css-qi9cid {
+.nav__bar__title {
   display: flex;
   align-items: center;
   margin-right: var(--space-5);
@@ -129,7 +129,7 @@ nav li a {
   flex: 1;
 }
 
-.css-4r1ia7 {
+.nav__bar__menu {
   display: none;
   align-items: center;
   flex-direction: column;
