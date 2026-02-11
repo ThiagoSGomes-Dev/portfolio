@@ -1,0 +1,90 @@
+/* layout */
+
+.project-page {
+  max-width: 920px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* hero estilo play store */
+
+.project-hero {
+  display: flex;
+  gap: 20px;
+}
+
+.project-hero__icon {
+  width: 96px;
+  height: 96px;
+  border-radius: 20px;
+  background: #eaeaea;
+  padding-right: 96px;
+}
+
+.project-hero__info--title {
+  font-size: var(--font-size-xl);
+}
+
+.project-hero__subtitle {
+  opacity: 0.7;
+  margin: 6px 0 12px;
+}
+
+.project-hero__actions {
+  display: flex;
+  gap: 12px;
+}
+
+/* botões */
+
+.btn-primary {
+  background: #111;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  border: 1px solid #111;
+  padding: 10px 14px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/* métricas técnicas */
+
+.project-metrics {
+  display: flex;
+  gap: 28px;
+  padding: 16px 0;
+  margin-bottom: 24px;
+}
+
+.metric__value {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.metric__label {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+/* sections */
+
+.tech-list,
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.tech-list li {
+  border: 1px solid #ddd;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+}
